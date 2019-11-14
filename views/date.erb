@@ -6,7 +6,9 @@
   </head>
 
   <body>
-    <h1><%= Time.now %></h1>
-  </bod
+    <% time = Time.new %>
+    <p><%= time.strftime(Today is %B, %m, %Y) %></p>
+    
+  </body>
 
 </html>
