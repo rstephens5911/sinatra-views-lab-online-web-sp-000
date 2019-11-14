@@ -7,3 +7,7 @@ class App < Sinatra::Baese
   get '/goodbye/' do
     erb :goodbye
   end
+
+  get '/date' do
+    erb :date
+  end
